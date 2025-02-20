@@ -1,0 +1,38 @@
+## Descripción 
+Este proyecto implementa una base de datos en MySQL para gestionar de manera eficiente las operaciones de la pizzería "Pizza Fiesta". La solución permite el registro de clientes, productos (pizzas, bebidas e ingredientes), y pedidos, garantizando un control preciso del inventario y la gestión de precios según el tipo de pizza y su tamaño.
+
+## Características Principales 
+- **Gestión de Clientes:** Registro de clientes con nombre, contacto y dirección.
+- **Gestión de Productos:**
+  - Registro de pizzas de distintos tamaños (pequeña, mediana y grande) y bebidas.
+  - Control de ingredientes para personalización de pizzas.
+  - Manejo de combos que incluyen pizzas y bebidas.
+- **Gestión de Pedidos:**
+  - Creación y procesamiento de pedidos tras la confirmación de pago.
+  - Especificación de la hora de recogida.
+  - Agregado de ingredientes extra con costo adicional.
+- **Pagos y Recogida:**
+  - Solo se procesan pedidos confirmados con pago.
+  - No hay costos de envío, ya que los clientes recogen los pedidos personalmente.
+
+## Estructura de la Base de Datos 
+La base de datos contiene las siguientes tablas:
+- **Clientes:** Almacena información de los clientes.
+- **Productos:** Lista pizzas y bebidas con sus precios y tamaños.
+- **Ingredientes:** Registra ingredientes disponibles para pizzas.
+- **Pedidos:** Control de pedidos realizados y su estado.
+- **Detalles del Pedido:** Especifica los productos en cada pedido y sus ingredientes personalizados.
+
+## Consultas SQL 
+Se incluyen 15 consultas clave para la gestión de la pizzería, entre ellas:
+- Registro de clientes y productos.
+- Creación y modificación de pedidos.
+- Cálculo de costos y seguimiento de ingresos.
+- Listado de productos, ingredientes y clientes frecuentes.
+- Análisis de ingresos por día, semana y mes.
+
+## Modelo de Datos 
+Se han generado diagramas de la base de datos utilizando herramientas como StarUML. Estos reflejan las relaciones entre entidades y garantizan la integridad referencial.
+
+## Autor 
+Este proyecto ha sido desarrollado para mejorar la eficiencia en la gestión de pedidos e inventario en "Pizza Fiesta".
