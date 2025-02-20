@@ -15,13 +15,6 @@ Este proyecto implementa una base de datos en MySQL para gestionar de manera efi
   - Solo se procesan pedidos confirmados con pago.
   - No hay costos de envío, ya que los clientes recogen los pedidos personalmente.
 
-## Estructura de la Base de Datos 
-La base de datos contiene las siguientes tablas:
-- **Clientes:** Almacena información de los clientes.
-- **Productos:** Lista pizzas y bebidas con sus precios y tamaños.
-- **Ingredientes:** Registra ingredientes disponibles para pizzas.
-- **Pedidos:** Control de pedidos realizados y su estado.
-- **Detalles del Pedido:** Especifica los productos en cada pedido y sus ingredientes personalizados.
 
 ## Consultas SQL 
 Se incluyen 15 consultas clave para la gestión de la pizzería, entre ellas:
